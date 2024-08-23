@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>coIT.Clockodo.TimeEntriesValidator.Program</StartupObject>
+    <BaseOutputPath>..\..\build\TimeEntriesValidator</BaseOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="coIT.Libraries.Clockodo" Version="1.0.0" />
+    <PackageReference Include="coIT.Libraries.ClockodoBusinessRules" Version="1.0.0" />
+    <PackageReference Include="Microsoft.DependencyValidation.Analyzers" Version="0.11.0" />
+  </ItemGroup>
+</Project>
