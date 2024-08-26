@@ -18,10 +18,10 @@
     <ROW Property="CTRLS" Value="2"/>
     <ROW Property="DialogBitmap" Value="dialog.jpg" MultiBuildValue="DefaultBuild:installer_dialog.jpg" Type="1" MsiKey="DialogBitmap"/>
     <ROW Property="Manufacturer" Value="co-IT.eu GmbH"/>
-    <ROW Property="ProductCode" Value="1031:{8F19CF17-1B3D-4E9F-9171-6657C4BBF438} " Type="16"/>
+    <ROW Property="ProductCode" Value="1031:{9EEE7C15-E50A-44DB-BCB0-7E3498943468} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="Time Entries Validator"/>
-    <ROW Property="ProductVersion" Value="1.0.0" Options="32"/>
+    <ROW Property="ProductVersion" Value="0.0.1" Options="32"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
     <ROW Property="UpgradeCode" Value="{BC3AE54B-A117-4D11-955B-2997A639E4B3}"/>
     <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
@@ -48,7 +48,7 @@
     <ROW Component="ProductInformation" Value="{3651E695-2855-451E-9F5E-7CD00367A98D}"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
-    <ROW Component="AI_CustomARPName" ComponentId="{143DA09B-44C2-4A6A-9B5E-F10A56B1BA4E}" Directory_="APPDIR" Attributes="4" KeyPath="DisplayName" Options="1"/>
+    <ROW Component="AI_CustomARPName" ComponentId="{8AC8EF34-C28A-48A9-AD53-B8D60C2893D3}" Directory_="APPDIR" Attributes="4" KeyPath="DisplayName" Options="1"/>
     <ROW Component="APPDIR" ComponentId="{9926E4F5-5566-42D4-A5DF-0F59B68304C5}" Directory_="APPDIR" Attributes="0"/>
     <ROW Component="ProductInformation" ComponentId="{3651E695-2855-451E-9F5E-7CD00367A98D}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
     <ROW Component="coIT.Toolkit.Clockodo.TimeEntriesValidator.exe" ComponentId="{DD30BD99-691A-459C-8A0C-2FBE466ED583}" Directory_="NeuesVerzeichnis_Dir" Attributes="256" KeyPath="coIT.Toolkit.Clockodo.TimeEntriesValidator.exe"/>
